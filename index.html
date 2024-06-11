@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>animation-fill-mode: forwards</title>
+</head>
+<body>
+    <section class="section-main">
+        <div class="container">
+            <div class="bar"></div>
+        </div>
+        <h1>animation-fill-mode</h1>
+        <article class="article-animation-fill-mode">
+            <h2>Definición y uso</h2>
+            <p> <span class="palabra-resaltada">animation-fill-mode</span> es una propiedad de CSS que define cómo debe verse un elemento antes de que comience una animación y después de que termine.</p>
+            <ul class="ul-concepto">
+                <li><span class="palabra-resaltada">Antes de que comience la animación:</span> Esto se refiere al estado del elemento desde que se carga la página hasta que la animación empieza.</li>
+                <li><span class="palabra-resaltada">Después de que termine la animación:</span> Esto se refiere al estado del elemento después de que la animación ha completado su ciclo.</li>
+            </ul>
+
+            <h2>Valores de animation-fill-mode</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th class="fila1">Valor</th>
+                        <th class="fila2">Descripción</th>
+                    </tr>
+                </thead>
+
+                <tbody class="info-tabla">
+                    <tr>
+                        <td>None</td>
+                        <td>El estilo no cambia</td>
+                        
+                    </tr>
+        
+                    <tr>
+                        <td>forwards</td>
+                        <td>El elemento mantiene el último estilo</td>
+                    </tr>
+        
+                    <tr>
+                        <td>backwards</td>
+                        <td>El elemento toma el primer estilo</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>both</td>
+                        <td>Afecta tanto antes como después</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h2>Ejemplos Didácticos</h2>
+            <h4>animation-fill-mode: forwards;</h4>
+
+            <div class="box"></div>
+            <button id="btn">  ▶  </button>
+        </article>
+    </section>
+    <script src="./app.js"></script>
+</body>
+</html>
